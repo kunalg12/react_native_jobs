@@ -1,12 +1,12 @@
-import React from 'react'
-import { View, Text } from 'react-native'
+import { useState } from 'react'
+import { View, Text, TouchableOpacity, FlatList } from 'react-native'
 
 import styles from './popularjobs.style'
 
 const Popularjobs = () => {
   return (
     <View>
-      <Text>Popularjobs</Text>
+      <Text>Popularjobs </Text>
     </View>
   )
 }
